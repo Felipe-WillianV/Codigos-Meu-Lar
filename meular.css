@@ -662,7 +662,7 @@ footer .fa-envelope {
 }
 
 
-@media (max-width: 375px) {
+@media (max-width: 400px) {
     .blue-strip {
         left: 25%;
         width: 66vw;
@@ -719,7 +719,7 @@ footer .fa-envelope {
         height: 30%;
         top: 950px;
         position: absolute;
-        left: 12%;
+        left: 15%;
         right: 5%;
     }
 
