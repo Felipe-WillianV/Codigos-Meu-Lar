@@ -662,7 +662,7 @@ footer .fa-envelope {
 }
 
 
-@media (max-width: 400px) {
+@media (max-width: 375px) {
     .blue-strip {
         left: 25%;
         width: 66vw;
@@ -821,6 +821,43 @@ footer .fa-envelope {
     footer h1 {
         position: absolute;
         top: 415px;
+    }
+
+}    
+
+@media (max-width: 415px) {
+    .blue-strip {
+        height: 730px;
+        width: 65%;
+        top: 35%;
+        left: 35%;
+    }
+
+
+    .top-section img {
+        max-width: 90%;
+        margin: 170px auto;
+    }
+
+    header {
+        top: 665px;
+        left: 6%;
+        width: 316px;
+        height: 275px;
+    }
+
+    header h1 {
+        left: 20px;
+        top: 20px;
+        font-size: 45pt;
+        font-weight: 450;
+    }
+
+    header h2 {
+        left: 20px;
+        top: 110px;
+        font-size: 35pt;
+        font-weight: 450;
     }
 
 }    
