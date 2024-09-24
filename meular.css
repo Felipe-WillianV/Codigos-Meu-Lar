@@ -1,0 +1,826 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: auto;
+    margin-bottom: 1000px;
+
+}
+
+nav {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: flex-start; /* Alinha à esquerda */
+    width: 100%;
+    height: 120px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(158, 157, 157);
+    padding: 0 2vw; /* Padding responsivo */
+}
+
+nav h1 {
+    font: normal 2vw Arial; /* Tamanho da fonte responsivo */
+    margin-top: 2%;
+    margin-left: 20px; /* Ajuste de espaçamento */
+}
+
+nav img {
+    width: 10vw; /* Ajuste para que diminua menos */
+    max-width: 60px; /* Valor máximo para não ficar muito pequena */
+    margin-right: 5px; /* Ajuste de espaçamento */
+}
+
+.top-section {
+    
+    background-color: rgb(255, 255, 255);
+    height: 350px;
+    width: 100%;
+   
+    top: auto;
+}
+
+.bottom-section {
+    background-color: #d1d0d0;
+    height: 650px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 435px;
+}
+
+.top-section img {
+    position: relative; /* Adiciona contexto de empilhamento */
+    z-index: 1;
+    max-width: 80%;  /* Define uma largura máxima de 80% da tela */
+    height: auto;     /* Mantém a proporção da imagem */
+    display: block;   /* Garante que a imagem seja tratada como um bloco */
+    margin: 150px auto;   /* Centraliza a imagem horizontalmente */
+}
+
+.blue-strip {
+    background-color: rgb(54, 54, 107);
+    height: 730px;
+    width: 20%;
+    position: absolute;
+    top: 35%;
+    left: 72%;
+    box-shadow: 2px 2px 5px #888;
+}
+
+header {
+    background-color: #fff9f9;
+    padding: 20px;
+    z-index: 2;
+    position: absolute;
+    top: 650px;
+    left: 120px;
+    width: 500px;
+    height: 380px;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.185);
+}
+
+
+header h1 {
+    color: rgb(79, 80, 82);
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 50pt;
+    font-weight: 450;
+    font-style: normal;
+    
+}
+
+header h2 {
+    color: rgb(30, 36, 129);
+    position: absolute;
+    left: 20px;
+    top: 120px;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 45pt;
+    font-weight: 450;
+    font-style: normal;
+}
+
+
+.teste {
+    width: 100%;
+    height: 500px;
+}
+
+
+/* DETALHES DA FAIXA AZUL */
+
+.faixa-azul {
+    margin-top: 465px;
+    width: 100%;
+    height: 400px;
+    top: 1080px;
+    position: static;
+    background-color: rgb(52, 54, 107);
+    display: flex;
+}
+
+.faixa-azul .azul-1 {
+    flex: 1.5;
+    height: auto;
+    left: auto;  
+    background-color: rgb(54, 54, 107);
+    padding-top: 70px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.faixa-azul .azul-2 {
+    flex: 1;
+    height: auto;
+    left: auto;
+    background-color: rgb(66, 66, 116);
+    padding-top: 100px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.faixa-azul .azul-3 {
+    flex: 1;
+    height: auto;
+    left: auto;
+    background-color: rgb(78, 78, 128);
+    padding-top: 100px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.faixa-azul .azul-4 {
+    flex: 1;
+    height: auto;
+    left: auto;
+    background-color: rgb(95, 95, 139);
+    padding-top: 100px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Hover faixa azul */
+
+.azul-1:hover {
+    transform: scale(1.1);
+    transition: all 0.3s;
+    z-index: 1;
+    border-radius: 5px;
+}
+
+.azul-2:hover {
+    transform: scale(1.1);
+    transition: all 0.3s;
+    z-index: 1;
+    border-radius: 5px;
+}
+
+.azul-3:hover {
+    transform: scale(1.1);
+    transition: all 0.3s;
+    z-index: 1;
+    border-radius: 5px;
+}
+
+.azul-4:hover {
+    transform: scale(1.1);
+    transition: all 0.3s;
+    z-index: 1;
+    border-radius: 5px;
+}
+
+/* H1 e PARAGRAFO FAIXA AZUL */
+
+.faixa-azul .azul-1 h1 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    font-family: "Nunito Sans", sans-serif;
+    text-shadow: 2px 2px 7px rgb(54, 54, 102);
+}
+
+.faixa-azul .azul-1 p {
+    color: white;
+    font-size: 25px;
+    top: 150px;
+    left: 30px;
+    padding-top: 10px;
+    margin: 5px;
+    font-family: "Nunito Sans", sans-serif;
+
+}
+
+/* CAIXA AZUL 2 */
+
+.faixa-azul .azul-2 h1 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-family: "Nunito Sans", sans-serif;
+    text-shadow: 3px 3px 7px rgb(58, 58, 116)
+}
+
+.faixa-azul .azul-2 p {
+    color: white;
+    font-size: 22px;
+    top: 170px;
+    left: 30px;
+    padding-top: 10px;
+    margin: 5px;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+/* CAIXA AZUL 3 */
+
+.faixa-azul .azul-3 h1 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-family: "Nunito Sans", sans-serif;
+    text-shadow: 2px 2px 7px rgb(65, 65, 112);
+}
+
+.faixa-azul .azul-3 p {
+    color: white;
+    font-size: 22px;
+    top: 170px;
+    left: 30px;
+    padding-top: 10px;
+    margin: 5px;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+/* CAIXA AZUL 4 */
+
+.faixa-azul .azul-4 h1 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-family: "Nunito Sans", sans-serif;
+    text-shadow: 2px 2px 7px rgb(79, 79, 122);
+}
+
+.faixa-azul .azul-4 p {
+    color: white;
+    font-size: 22px;
+    top: 170px;
+    left: 30px;
+    padding-top: 10px;
+    margin: 5px;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+
+
+/* FAIXA CINZA E DETALHES */
+
+.faixa-cinza {
+    width: 100%;
+    height: 450px;
+    top: 1480px;
+    background-color: #d1d0d0;
+    position: absolute;
+}
+
+.faixa-cinza h1 {
+    color: rgb(79, 80, 82);
+    text-align: center;
+    padding-top: 60px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 35pt;
+    font-weight: 450;
+    font-style: normal;
+    text-shadow: 2px 2px 5px #88888833;
+    
+}
+
+.faixa-cinza .descricao-1 {
+    width: 20%;
+    height: 320px;
+    top: 200px;
+    background-color: black;
+    position: absolute;
+    left: 230px;
+    z-index: 1;
+    border-radius: 5px;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.185);
+}
+
+.faixa-cinza .descricao-2 {
+    width: 20%;
+    height: 320px;
+    top: 200px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    right: 230px;
+    z-index: 1;
+    border-radius: 5px;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.185);
+}
+
+.detalhe {
+    width: 100%;
+    height: 200px;
+    top: 1930px;
+    background-color: rgb(52, 54, 107);
+    position: absolute;
+}
+
+.detalhe .descricao-3 {
+    width: 20%;
+    height: 320px;
+    top: 100px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 230px;
+    z-index: 1;
+    border-radius: 5px;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.185);
+}
+
+.detalhe .descricao-4 {
+    width: 20%;
+    height: 320px;
+    top: 100px;
+    background-color: black;
+    position: absolute;
+    right: 230px;
+    z-index: 1;
+    border-radius: 5px;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.185);
+}
+
+/*Testos das descrições*/
+
+.faixa-cinza .descricao-1 h1 {
+    color: white;
+    font-size: 30px;
+    text-align: center; 
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.faixa-cinza .descricao-1 p {
+    color: white;
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.faixa-cinza .descricao-2 h1 {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    text-align: center;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.faixa-cinza .descricao-2 p {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.detalhe .descricao-3 h1 {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    padding-top: 60px;
+    font-weight: 450;
+    text-align: center;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.detalhe .descricao-3 p {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.detalhe .descricao-4 h1 {
+    color: white;
+    font-size: 30px;
+    padding-top: 60px;
+    font-weight: 450;
+    text-align: center;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.detalhe .descricao-4 p {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.faixa-cinza .foto {
+    width: 265px;
+    height: 450px;
+    top: 320px;
+    position: absolute;
+    left: 545px;
+    z-index: 1;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.192);
+}
+
+/*Transições dos detalhes*/
+
+.descricao-1:hover {
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+
+.descricao-2:hover {
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+
+.descricao-3:hover {
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+
+.descricao-4:hover {
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+
+
+/* Footer */
+
+footer {
+    width: 100%;
+    height: 450px;
+    top: 2130px;
+    background-color: #d1d0d0;
+    position: absolute;
+}
+
+footer h1 {
+    color: rgb(79, 80, 82);
+    text-align: center;
+    padding-top: 250px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 35pt;
+    font-weight: 450;
+    font-style: normal;
+    text-shadow: 2px 2px 5px #88888833;
+}
+
+footer .whatsapp-link {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    left: 550px;
+    background-color: #25d366;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1;
+    cursor: pointer;
+}
+
+footer .fa-whatsapp {
+    margin-top: 16px;
+}
+
+
+footer .email-link {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    left: 750px;
+    background-color: #7139bb;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1;
+    cursor: pointer;
+}
+
+footer .fa-envelope {
+    margin-top: 16px;
+}
+
+/* Hover Whatsapp e Email */
+
+.email-link:hover {
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+
+.whatsapp-link:hover {
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+
+/* Responsividade */
+
+@media (max-width: 1330px) {
+    .faixa-azul {
+         /* Permite que as caixas quebrem para a linha seguinte */
+        height: 700px;
+        padding: 0;
+        position: static;
+        flex-direction: row;
+    }
+
+    .faixa-azul .azul-1 h1,
+    .faixa-azul .azul-2 h1 {
+        font-size: 35px; /* Ajuste para o título */
+        top: 40px;
+    }
+    .faixa-azul .azul-3 h1,
+    .faixa-azul .azul-4 h1 {
+        font-size: 35px; /* Ajuste para o título */
+        top: 40px;
+        left: auto;  
+    }
+
+    .faixa-azul .azul-1 p,
+    .faixa-azul .azul-2 p {
+        font-size: 30px; /* Ajuste para o texto do parágrafo */
+
+        top: 130px;
+    }
+    
+    .faixa-azul .azul-3 p,
+    .faixa-azul .azul-4 p {
+        font-size: 30px; /* Ajuste para o texto do parágrafo */
+        top: 100px;
+    }
+    .faixa-cinza {
+        width: 100%;
+        height: 450px;
+        margin-top: 305px;
+       
+        background-color: #d1d0d0;
+    }
+
+    .detalhe{
+        margin-top: 305px;
+    }
+    
+    footer{
+        margin-top: 305px;
+    }
+
+    .faixa-cinza .descricao-1 p, 
+    .faixa-cinza .descricao-2 p {
+        font-size: 19px;
+    }
+
+    .detalhe .descricao-3 p,
+    .detalhe .descricao-4 p{
+        font-size: 19px;
+    }
+
+    .faixa-cinza .foto{
+        display: none;
+        box-shadow: none;
+    }
+
+    footer {
+        display: flex;
+        flex-direction:row;
+    }
+
+
+    footer .whatsapp-link {
+        bottom: 50px;
+        left: 380px;
+        margin-bottom: 20px;
+    }
+
+    footer .email-link {
+        bottom: 50px;
+        left: 560px;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media (max-width: 1008px) {
+    .faixa-azul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .faixa-azul .azul-1,
+    .faixa-azul .azul-2,
+    .faixa-azul .azul-3,
+    .faixa-azul .azul-4 {
+        flex: 0 0 50%;
+    }
+
+    .faixa-cinza .descricao-1,
+    .detalhe .descricao-4 {
+        width: 30%;
+        left: 10%;
+    }
+
+    .faixa-cinza .descricao-2 {
+        width: 30%;
+        right: 10%;
+    }
+
+    .detalhe .descricao-3 {
+        width: 30%;
+        left: 60%;
+    }
+
+    footer .whatsapp-link {
+        bottom: -30px;
+        left: 380px;
+    }
+
+    footer .email-link {
+        bottom: -30px;
+        left: 560px;
+    }
+}
+
+
+@media (max-width: 375px) {
+    .blue-strip {
+        left: 25%;
+        width: 66vw;
+        height: 825px
+    }
+
+    .faixa-azul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .faixa-azul .azul-1,
+    .faixa-azul .azul-2,
+    .faixa-azul .azul-3,
+    .faixa-azul .azul-4 {
+        flex: 0 0 100%; 
+        height: 50%;
+    }
+
+    .faixa-cinza .descricao-1 {
+        width: 90%;
+        height: 30%;
+        top: 280px;
+        position: absolute;
+        left: 5%;
+        right: 5%;
+       
+    }
+
+    .faixa-cinza .descricao-2 {
+        width: 90%;
+        height: 30%;
+        top: 580px;
+        position: absolute;
+        left: 5%;
+        right: 5%;
+    }
+
+    .faixa-cinza {
+        position: absolute;
+        top: 2220px;
+        height: 910px;
+    }
+
+    .detalhe {
+        position: absolute;
+        height: 540px;
+        top: 3130px;
+    }
+
+    .faixa-cinza .foto {
+        display: block;
+        width: 90%;
+        height: 30%;
+        top: 950px;
+        position: absolute;
+        left: 12%;
+        right: 5%;
+    }
+
+    .detalhe .descricao-3 {
+        width: 90%;
+        height: 50%;
+        top: 580px;
+        position: absolute;
+        left: 5%;
+        right: 5%;
+       
+    }
+
+    .detalhe .descricao-4 {
+        width: 90%;
+        height: 50%;
+        top: 880px;
+        position: absolute;
+        left: 5%;
+        right: 5%;
+       
+    }
+
+    nav h1 {
+        font: normal 6vw Arial; 
+        margin-top: 3%;
+        margin-left: 20px; 
+    }
+
+    nav img {
+        width: 15vw; 
+        max-width: 60px; 
+        margin-right: 5px; 
+    }
+
+    .top-section img {
+        max-width: 89%;
+        height: 80%;
+        margin: 210px auto;
+    }
+
+    .bottom-section {
+        height: 710px;
+    }
+
+    header {
+        top: 665px;
+        left: 6%;
+        width: 316px;
+        height: 275px;
+    }
+
+    header h1 {
+        left: 10px;
+        top: 20px;
+        font-size: 35pt;
+        font-weight: 450;
+    }
+
+    header h2 {
+        left: 10px;
+        top: 100px;
+        font-size: 30pt;
+        font-weight: 200;
+    }
+    
+   .faixa-azul .azul-1 p,
+   .faixa-azul .azul-2 p {
+       font-size: 20px; /* Ajuste para o texto do parágrafo */
+       top: 80px;
+   }
+   
+   .faixa-azul .azul-3 p,
+   .faixa-azul .azul-4 p {
+       font-size: 20px; /* Ajuste para o texto do parágrafo */
+       top: 80px;
+   }
+
+   footer .email-link {
+        width: 60px;
+        height: 60px;
+        bottom: 25px;
+        left: 200px
+    }
+
+    footer .whatsapp-link { 
+        width: 60px;
+        height: 60px;
+        bottom: 25px;
+        left: 100px
+    }
+
+    footer {
+        position: absolute;
+        height: 1050px;
+        top: 3670px;
+    }
+
+    footer h1 {
+        position: absolute;
+        top: 415px;
+    }
+
+}    
