@@ -537,128 +537,51 @@ footer .fa-envelope {
 
 /* Responsividade */
 
-@media (max-width: 1330px) {
-    .faixa-azul {
-        height: 700px;
-        padding: 0;
-        position: static;
-        flex-direction: row;
-    }
-
-    .faixa-azul .azul-1 h1,
-    .faixa-azul .azul-2 h1 {
-        font-size: 35px; 
-        top: 40px;
-    }
-    .faixa-azul .azul-3 h1,
-    .faixa-azul .azul-4 h1 {
-        font-size: 35px; 
-        top: 40px;
-        left: auto;  
-    }
-
-    .faixa-azul .azul-1 p,
-    .faixa-azul .azul-2 p {
-        font-size: 30px;
-        top: 130px;
-    }
-    
-    .faixa-azul .azul-3 p,
-    .faixa-azul .azul-4 p {
-        font-size: 30px; 
-        top: 100px;
-    }
-
-    .faixa-cinza {
-        width: 100%;
-        height: 450px;
-        margin-top: 305px;
-        background-color: #d1d0d0;
-    }
-
-    .detalhe{
-        margin-top: 305px;
-    }
-    
-    footer{
-        margin-top: 305px;
-    }
-
-    .faixa-cinza .descricao-1 p, 
-    .faixa-cinza .descricao-2 p {
-        font-size: 19px;
-    }
-
-    .detalhe .descricao-3 p,
-    .detalhe .descricao-4 p{
-        font-size: 19px;
-    }
-
-    .faixa-cinza .foto{
-        display: none;
-        box-shadow: none;
-    }
-
-    footer {
-        display: flex;
-        flex-direction:row;
-    }
-
-    footer .whatsapp-link {
-        bottom: 50px;
-        left: 380px;
-        margin-bottom: 20px;
-    }
-
-    footer .email-link {
-        bottom: 50px;
-        left: 560px;
-        margin-bottom: 20px;
-    }
-}
-
-@media (max-width: 1008px) {
-    .faixa-azul {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .faixa-azul .azul-1,
-    .faixa-azul .azul-2,
-    .faixa-azul .azul-3,
-    .faixa-azul .azul-4 {
-        flex: 0 0 50%;
-    }
-
-    .faixa-cinza .descricao-1,
-    .detalhe .descricao-4 {
-        width: 30%;
-        left: 10%;
-    }
-
-    .faixa-cinza .descricao-2 {
-        width: 30%;
-        right: 10%;
-    }
-
-    .detalhe .descricao-3 {
-        width: 30%;
-        left: 60%;
-    }
-
-    footer .whatsapp-link {
-        bottom: -30px;
-        left: 380px;
-    }
-
-    footer .email-link {
-        bottom: -30px;
-        left: 560px;
-    }
-}
-
-
 @media (max-width: 375px) {
+
+    nav h1 {
+        font: normal 6vw Arial; 
+        margin-top: 5%;
+        margin-left: 20px; 
+    }
+
+    nav img {
+        width: 15vw; 
+        max-width: 60px; 
+        margin-right: 5px; 
+    }
+
+    .top-section img {
+        max-width: 80%;
+        height: 70%;
+        margin: 195px auto;
+    }
+
+    .bottom-section {
+        height: 710px;
+    }
+
+    header {
+        top: 610px;
+        left: 7%;
+        width: 315px;
+        height: 330px
+    }
+
+    header h1 {
+        left: 10px;
+        top: 30px;
+        font-size: 40pt;
+        font-weight: 450
+    }
+
+    header h2 {
+        left: 10px;
+        top: 115px;
+        font-size: 33pt;
+        font-weight: 455;
+    }
+    
     .blue-strip {
         height: 845px;
         width: 60%;
@@ -737,49 +660,6 @@ footer .fa-envelope {
         left: 5%;
         right: 5%;
        
-    }
-
-    nav h1 {
-        font: normal 6vw Arial; 
-        margin-top: 5%;
-        margin-left: 20px; 
-    }
-
-    nav img {
-        width: 15vw; 
-        max-width: 60px; 
-        margin-right: 5px; 
-    }
-
-    .top-section img {
-        max-width: 80%;
-        height: 70%;
-        margin: 195px auto;
-    }
-
-    .bottom-section {
-        height: 710px;
-    }
-
-    header {
-        top: 610px;
-        left: 7%;
-        width: 315px;
-        height: 330px
-    }
-
-    header h1 {
-        left: 10px;
-        top: 30px;
-        font-size: 40pt;
-        font-weight: 450
-    }
-
-    header h2 {
-        left: 10px;
-        top: 115px;
-        font-size: 33pt;
-        font-weight: 455;
     }
     
    .faixa-azul .azul-1 p,
@@ -1008,14 +888,26 @@ footer .fa-envelope {
 
 }   
 
-/*@media (max-width: 480px) {
+@media (min-width: 421px) and (max-width: 480px)  {
+    
+    nav h1 {
+        font: normal 6vw Arial; 
+        margin-top: 3%;
+        margin-left: 20px; 
+    }
+
+    nav img {
+        width: 15vw; 
+        max-width: 60px; 
+        margin-right: 5px; 
+    }
+    
     .blue-strip {
         height: 825px;
         width: 55%;
         top: 32%;
         left: 40%;
     }
-
 
     .top-section img {
         max-width: 80%;
@@ -1044,4 +936,239 @@ footer .fa-envelope {
         font-weight: 450;
     }
 
-}   */
+    .bottom-section {
+        height: 700px;    
+    }
+
+    .faixa-azul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .faixa-azul .azul-1,
+    .faixa-azul .azul-2,
+    .faixa-azul .azul-3,
+    .faixa-azul .azul-4 {
+        flex: 0 0 100%; 
+        height: 55%;
+    }
+
+    .faixa-azul .azul-1 p,
+    .faixa-azul .azul-2 p {
+        font-size: 28px; 
+        top: 100px;
+    }
+    
+    .faixa-azul .azul-3 p,
+    .faixa-azul .azul-4 p {
+        font-size: 28px;
+        top: 100px;
+    }
+
+    .faixa-cinza .descricao-1 {
+        width: 90%;
+        height: 30%;
+        top: 280px;
+        left: 5%;
+        right: 5%;
+    }
+
+    .faixa-cinza .descricao-2 {
+        width: 90%;
+        height: 30%;
+        top: 580px;   
+        left: 5%;
+        right: 5%;
+    }
+
+    .faixa-cinza {
+        position: absolute;
+        top: 2340px;
+        height: 910px;
+    }
+
+    .detalhe {
+        position: absolute;
+        height: 535px;
+        top: 3250px
+    }
+
+    .faixa-cinza h1 {
+        font-size: 7vh;
+    }
+
+    .faixa-cinza .foto {
+        display: block;
+        width: 90%;
+        height: 30%;
+        top: 950px;
+        position: absolute;
+        left: 20%;
+        right: 5%;
+    }
+
+    .detalhe .descricao-3 {
+        width: 90%;
+        height: 50%;
+        top: 585px;
+        left: 5%;
+        right: 5%;
+       
+    }
+
+    .detalhe .descricao-4 {
+        width: 90%;
+        height: 50%;
+        top: 890px;
+        left: 5%;
+        right: 5%;
+       
+    }
+
+    footer .email-link {
+        width: 60px;
+        height: 60px;
+        bottom: 45px;
+        left: 270px;
+    }
+
+    footer .whatsapp-link { 
+        width: 60px;
+        height: 60px;
+        bottom: 45px;
+        left: 135px;
+    }
+
+    footer {
+        position: absolute;
+        height: 1020px;
+        top: 3785px;
+    }
+
+    footer h1 {
+        position: absolute;
+        top: 440px;
+        font-size: 7.1vh;
+        
+    }
+}   
+
+@media (min-width: 481px) and (max-width: 1008px) {
+    .faixa-azul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .faixa-azul .azul-1,
+    .faixa-azul .azul-2,
+    .faixa-azul .azul-3,
+    .faixa-azul .azul-4 {
+        flex: 0 0 50%;
+    }
+
+    .faixa-cinza .descricao-1,
+    .detalhe .descricao-4 {
+        width: 30%;
+        left: 10%;
+    }
+
+    .faixa-cinza .descricao-2 {
+        width: 30%;
+        right: 10%;
+    }
+
+    .detalhe .descricao-3 {
+        width: 30%;
+        left: 60%;
+    }
+
+    footer .whatsapp-link {
+        bottom: -30px;
+        left: 380px;
+    }
+
+    footer .email-link {
+        bottom: -30px;
+        left: 560px;
+    }
+}
+
+@media (min-width: 1009px) and (max-width: 1330px) {
+    .faixa-azul {
+        height: 700px;
+        padding: 0;
+        position: static;
+        flex-direction: row;
+    }
+
+    .faixa-azul .azul-1 h1,
+    .faixa-azul .azul-2 h1 {
+        font-size: 35px; 
+        top: 40px;
+    }
+    .faixa-azul .azul-3 h1,
+    .faixa-azul .azul-4 h1 {
+        font-size: 35px; 
+        top: 40px;
+        left: auto;  
+    }
+
+    .faixa-azul .azul-1 p,
+    .faixa-azul .azul-2 p {
+        font-size: 30px;
+        top: 130px;
+    }
+    
+    .faixa-azul .azul-3 p,
+    .faixa-azul .azul-4 p {
+        font-size: 30px; 
+        top: 100px;
+    }
+
+    .faixa-cinza {
+        width: 100%;
+        height: 450px;
+        margin-top: 305px;
+        background-color: #d1d0d0;
+    }
+
+    .detalhe{
+        margin-top: 305px;
+    }
+    
+    footer{
+        margin-top: 305px;
+    }
+
+    .faixa-cinza .descricao-1 p, 
+    .faixa-cinza .descricao-2 p {
+        font-size: 19px;
+    }
+
+    .detalhe .descricao-3 p,
+    .detalhe .descricao-4 p{
+        font-size: 19px;
+    }
+
+    .faixa-cinza .foto{
+        display: none;
+        box-shadow: none;
+    }
+
+    footer {
+        display: flex;
+        flex-direction:row;
+    }
+
+    footer .whatsapp-link {
+        bottom: 50px;
+        left: 380px;
+        margin-bottom: 20px;
+    }
+
+    footer .email-link {
+        bottom: 50px;
+        left: 560px;
+        margin-bottom: 20px;
+    }
+}
