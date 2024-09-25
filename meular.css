@@ -664,9 +664,10 @@ footer .fa-envelope {
 
 @media (max-width: 375px) {
     .blue-strip {
-        left: 25%;
-        width: 66vw;
-        height: 825px
+        height: 845px;
+        width: 60%;
+        top: 32%;
+        left: 35%;
     }
 
     .faixa-azul {
@@ -756,9 +757,9 @@ footer .fa-envelope {
     }
 
     .top-section img {
-        max-width: 89%;
-        height: 80%;
-        margin: 210px auto;
+        max-width: 80%;
+        height: 70%;
+        margin: 195px auto;
     }
 
     .bottom-section {
@@ -766,24 +767,24 @@ footer .fa-envelope {
     }
 
     header {
-        top: 665px;
-        left: 6%;
-        width: 316px;
-        height: 275px;
+        top: 610px;
+        left: 7%;
+        width: 315px;
+        height: 330px
     }
 
     header h1 {
         left: 10px;
-        top: 20px;
-        font-size: 35pt;
-        font-weight: 450;
+        top: 30px;
+        font-size: 40pt;
+        font-weight: 450
     }
 
     header h2 {
         left: 10px;
-        top: 100px;
-        font-size: 30pt;
-        font-weight: 200;
+        top: 115px;
+        font-size: 33pt;
+        font-weight: 455;
     }
     
    .faixa-azul .azul-1 p,
@@ -825,7 +826,7 @@ footer .fa-envelope {
 
 }    
 
-@media (max-width: 415px) {
+@media (max-width: 425px) {
     .blue-strip {
         height: 730px;
         width: 65%;
@@ -860,4 +861,42 @@ footer .fa-envelope {
         font-weight: 450;
     }
 
-}    
+}   
+
+@media (max-width: 480px) {
+    .blue-strip {
+        height: 825px;
+        width: 55%;
+        top: 32%;
+        left: 40%;
+    }
+
+
+    .top-section img {
+        max-width: 80%;
+        height: 80%;
+        margin: 170px auto;
+    }
+
+    header {
+        top: 610px;
+        left: 5%;
+        width: 417px;
+        height: 330px;
+    }
+
+    header h1 {
+        left: 20px;
+        top: 20px;
+        font-size: 45pt;
+        font-weight: 450;
+    }
+
+    header h2 {
+        left: 20px;
+        top: 110px;
+        font-size: 37pt;
+        font-weight: 450;
+    }
+
+}   
