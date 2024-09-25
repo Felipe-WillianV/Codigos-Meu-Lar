@@ -581,7 +581,7 @@ footer .fa-envelope {
         font-size: 33pt;
         font-weight: 455;
     }
-    
+
     .blue-strip {
         height: 845px;
         width: 60%;
@@ -862,14 +862,14 @@ footer .fa-envelope {
     footer .email-link {
         width: 60px;
         height: 60px;
-        bottom: 45px;
+        bottom: 1px;
         left: 235px
     }
 
     footer .whatsapp-link { 
         width: 60px;
         height: 60px;
-        bottom: 45px;
+        bottom: 1px;
         left: 100px
     }
 
