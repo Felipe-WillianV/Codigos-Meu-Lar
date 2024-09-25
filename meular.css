@@ -599,7 +599,7 @@ footer .fa-envelope {
     .faixa-azul .azul-3,
     .faixa-azul .azul-4 {
         flex: 0 0 100%; 
-        height: 50%;
+        height: 80%;
     }
 
     .faixa-cinza .descricao-1 {
@@ -621,15 +621,16 @@ footer .fa-envelope {
 
     .faixa-cinza {
         position: absolute;
-        top: 2220px;
+        top: 2410px;
         height: 910px;
     }
 
     .detalhe {
         position: absolute;
         height: 540px;
-        top: 3130px;
+        top: 3320px;
     }
+
     .faixa-cinza h1 {
         font-size: 7vh;
     }
@@ -691,7 +692,7 @@ footer .fa-envelope {
     footer {
         position: absolute;
         height: 1050px;
-        top: 3670px;
+        top: 3860px;
     }
 
     footer h1 {
@@ -775,7 +776,7 @@ footer .fa-envelope {
 
     .faixa-azul {
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
     }
     
     .faixa-azul .azul-1,
@@ -783,7 +784,7 @@ footer .fa-envelope {
     .faixa-azul .azul-3,
     .faixa-azul .azul-4 {
         flex: 0 0 100%; 
-        height: 55%;
+        height: 50%;
     }
 
     .faixa-azul .azul-1 p,
@@ -817,14 +818,14 @@ footer .fa-envelope {
 
     .faixa-cinza {
         position: absolute;
-        top: 2340px;
+        top: 2705px;
         height: 910px;
     }
 
     .detalhe {
         position: absolute;
         height: 535px;
-        top: 3250px
+        top: 3615px;
     }
 
     .faixa-cinza h1 {
@@ -876,7 +877,7 @@ footer .fa-envelope {
     footer {
         position: absolute;
         height: 1020px;
-        top: 3785px;
+        top: 4150px;
     }
 
     footer h1 {
