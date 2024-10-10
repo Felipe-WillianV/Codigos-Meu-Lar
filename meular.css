@@ -632,7 +632,7 @@ footer .fa-envelope {
     }
 
     .faixa-cinza h1 {
-        font-size: 7vh;
+        font-size: 4vh auto;
     }
 
     .faixa-cinza .foto {
@@ -698,7 +698,7 @@ footer .fa-envelope {
     footer h1 {
         position: absolute;
         top: 425px;
-        font-size: 7vh;
+        font-size: 4vh auto;
         
     }
 
@@ -829,7 +829,7 @@ footer .fa-envelope {
     }
 
     .faixa-cinza h1 {
-        font-size: 6.5vh;
+        font-size: 6vh auto;
     }
 
     .faixa-cinza .foto {
@@ -883,7 +883,7 @@ footer .fa-envelope {
     footer h1 {
         position: absolute;
         top: 440px;
-        font-size: 6.5vh;
+        font-size: 6vh auto;
         
     }
 
@@ -995,7 +995,7 @@ footer .fa-envelope {
     }
 
     .faixa-cinza h1 {
-        font-size: 7vh;
+        font-size: 7vh auto;
     }
 
     .faixa-cinza .foto {
@@ -1049,7 +1049,7 @@ footer .fa-envelope {
     footer h1 {
         position: absolute;
         top: 440px;
-        font-size: 7.1vh;
+        font-size: 7vh auto;
         
     }
 }   
