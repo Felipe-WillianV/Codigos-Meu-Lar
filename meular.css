@@ -643,6 +643,9 @@ footer .fa-envelope {
         position: absolute;
         left: 12%;
         right: 5%;
+        margin-left: -20px;
+        padding: 0px 25px 40px;
+        box-shadow: none;
     }
 
     .detalhe .descricao-3 {
@@ -840,6 +843,8 @@ footer .fa-envelope {
         position: absolute;
         left: 15%;
         right: 5%;
+        padding: 0px 25px 40px;
+        box-shadow: none;
     }
 
     .detalhe .descricao-3 {
